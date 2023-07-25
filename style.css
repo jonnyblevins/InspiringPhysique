@@ -1,0 +1,52 @@
+/* Background color for top navigation*/
+.topnav {
+    overflow: hidden;
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  /* Link style inside the nav bar*/
+  .topnav a {
+    float: left;
+    color: rgb(44, 6, 9);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Link color when hovering over */
+  .topnav a:hover {
+    background-color: rgb(44, 6, 9);
+    color: white;
+  }
+  
+  /* Colors of active link */
+  .topnav a.active {
+    background-color: rgb(95, 24, 24);
+    color: white;
+  }
+
+  p {
+    color: rgb(44, 6, 9);
+    text-align: left;
+    padding: 0px 100px 15px 35px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+  }
